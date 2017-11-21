@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA22139617D783890063A005 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA22139417D783890063A005 /* icon.png */; };
+		CA22139717D783890063A005 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA22139517D783890063A005 /* icon@2x.png */; };
+		CA32032117377F7500350A99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA32032017377F7500350A99 /* UIKit.framework */; };
+		CA32032317377F7500350A99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA32032217377F7500350A99 /* Foundation.framework */; };
+		CA32032517377F7500350A99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA32032417377F7500350A99 /* CoreGraphics.framework */; };
+		CA32032B17377F7500350A99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA32032917377F7500350A99 /* InfoPlist.strings */; };
+		CA32032D17377F7500350A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA32032C17377F7500350A99 /* main.m */; };
+		CA32033117377F7500350A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA32033017377F7500350A99 /* AppDelegate.m */; };
+		CA32033317377F7500350A99 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA32033217377F7500350A99 /* Default.png */; };
+		CA32033517377F7500350A99 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA32033417377F7500350A99 /* Default@2x.png */; };
+		CA32033717377F7500350A99 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA32033617377F7500350A99 /* Default-568h@2x.png */; };
+		CA32034017377FAF00350A99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA32033E17377FAF00350A99 /* ViewController.m */; };
+		CA32034117377FAF00350A99 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA32033F17377FAF00350A99 /* ViewController.xib */; };
+		CA475384181E4650000D1BD8 /* icon-120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA475383181E4650000D1BD8 /* icon-120@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA22139417D783890063A005 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CA22139517D783890063A005 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CA32031D17377F7500350A99 /* Accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA32032017377F7500350A99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA32032217377F7500350A99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA32032417377F7500350A99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA32032817377F7500350A99 /* Accelerometer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Accelerometer-Info.plist"; sourceTree = "<group>"; };
+		CA32032A17377F7500350A99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA32032C17377F7500350A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA32032E17377F7500350A99 /* Accelerometer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accelerometer-Prefix.pch"; sourceTree = "<group>"; };
+		CA32032F17377F7500350A99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA32033017377F7500350A99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA32033217377F7500350A99 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA32033417377F7500350A99 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA32033617377F7500350A99 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA32033D17377FAF00350A99 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA32033E17377FAF00350A99 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA32033F17377FAF00350A99 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		CA475383181E4650000D1BD8 /* icon-120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA32031A17377F7500350A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA32032117377F7500350A99 /* UIKit.framework in Frameworks */,
+				CA32032317377F7500350A99 /* Foundation.framework in Frameworks */,
+				CA32032517377F7500350A99 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA32031417377F7500350A99 = {
+			isa = PBXGroup;
+			children = (
+				CA32032617377F7500350A99 /* Accelerometer */,
+				CA32031F17377F7500350A99 /* Frameworks */,
+				CA32031E17377F7500350A99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA32031E17377F7500350A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA32031D17377F7500350A99 /* Accelerometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA32031F17377F7500350A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA32032017377F7500350A99 /* UIKit.framework */,
+				CA32032217377F7500350A99 /* Foundation.framework */,
+				CA32032417377F7500350A99 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA32032617377F7500350A99 /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				CA32032F17377F7500350A99 /* AppDelegate.h */,
+				CA32033017377F7500350A99 /* AppDelegate.m */,
+				CA32032717377F7500350A99 /* Supporting Files */,
+				CA32033D17377FAF00350A99 /* ViewController.h */,
+				CA32033E17377FAF00350A99 /* ViewController.m */,
+				CA32033F17377FAF00350A99 /* ViewController.xib */,
+			);
+			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		CA32032717377F7500350A99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA475383181E4650000D1BD8 /* icon-120@2x.png */,
+				CA22139417D783890063A005 /* icon.png */,
+				CA22139517D783890063A005 /* icon@2x.png */,
+				CA32032817377F7500350A99 /* Accelerometer-Info.plist */,
+				CA32032917377F7500350A99 /* InfoPlist.strings */,
+				CA32032C17377F7500350A99 /* main.m */,
+				CA32032E17377F7500350A99 /* Accelerometer-Prefix.pch */,
+				CA32033217377F7500350A99 /* Default.png */,
+				CA32033417377F7500350A99 /* Default@2x.png */,
+				CA32033617377F7500350A99 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA32031C17377F7500350A99 /* Accelerometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA32033A17377F7500350A99 /* Build configuration list for PBXNativeTarget "Accelerometer" */;
+			buildPhases = (
+				CA32031917377F7500350A99 /* Sources */,
+				CA32031A17377F7500350A99 /* Frameworks */,
+				CA32031B17377F7500350A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accelerometer;
+			productName = Accelerometer;
+			productReference = CA32031D17377F7500350A99 /* Accelerometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA32031517377F7500350A99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tonyguan;
+			};
+			buildConfigurationList = CA32031817377F7500350A99 /* Build configuration list for PBXProject "Accelerometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA32031417377F7500350A99;
+			productRefGroup = CA32031E17377F7500350A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA32031C17377F7500350A99 /* Accelerometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA32031B17377F7500350A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA22139717D783890063A005 /* icon@2x.png in Resources */,
+				CA32032B17377F7500350A99 /* InfoPlist.strings in Resources */,
+				CA32033317377F7500350A99 /* Default.png in Resources */,
+				CA22139617D783890063A005 /* icon.png in Resources */,
+				CA32033517377F7500350A99 /* Default@2x.png in Resources */,
+				CA475384181E4650000D1BD8 /* icon-120@2x.png in Resources */,
+				CA32033717377F7500350A99 /* Default-568h@2x.png in Resources */,
+				CA32034117377FAF00350A99 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA32031917377F7500350A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA32032D17377F7500350A99 /* main.m in Sources */,
+				CA32033117377F7500350A99 /* AppDelegate.m in Sources */,
+				CA32034017377FAF00350A99 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA32032917377F7500350A99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA32032A17377F7500350A99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA32033817377F7500350A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA32033917377F7500350A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA32033B17377F7500350A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accelerometer/Accelerometer-Prefix.pch";
+				INFOPLIST_FILE = "Accelerometer/Accelerometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA32033C17377F7500350A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accelerometer/Accelerometer-Prefix.pch";
+				INFOPLIST_FILE = "Accelerometer/Accelerometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA32031817377F7500350A99 /* Build configuration list for PBXProject "Accelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA32033817377F7500350A99 /* Debug */,
+				CA32033917377F7500350A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA32033A17377F7500350A99 /* Build configuration list for PBXNativeTarget "Accelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA32033B17377F7500350A99 /* Debug */,
+				CA32033C17377F7500350A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA32031517377F7500350A99 /* Project object */;
+}

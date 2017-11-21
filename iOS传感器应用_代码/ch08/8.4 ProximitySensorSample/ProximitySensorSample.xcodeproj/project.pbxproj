@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4753D1181E9C48000D1BD8 /* icon-120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4753D0181E9C48000D1BD8 /* icon-120@2x.png */; };
+		CAF9DF7717F2A32000980DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF9DF7617F2A32000980DEA /* Foundation.framework */; };
+		CAF9DF7917F2A32000980DEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF9DF7817F2A32000980DEA /* CoreGraphics.framework */; };
+		CAF9DF7B17F2A32000980DEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF9DF7A17F2A32000980DEA /* UIKit.framework */; };
+		CAF9DF8117F2A32000980DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAF9DF7F17F2A32000980DEA /* InfoPlist.strings */; };
+		CAF9DF8317F2A32000980DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF9DF8217F2A32000980DEA /* main.m */; };
+		CAF9DF8717F2A32000980DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF9DF8617F2A32000980DEA /* AppDelegate.m */; };
+		CAF9DF8A17F2A32000980DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF9DF8817F2A32000980DEA /* Main.storyboard */; };
+		CAF9DF8D17F2A32000980DEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF9DF8C17F2A32000980DEA /* ViewController.m */; };
+		CAF9DF8F17F2A32000980DEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF9DF8E17F2A32000980DEA /* Images.xcassets */; };
+		CAF9DF9617F2A32000980DEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF9DF9517F2A32000980DEA /* XCTest.framework */; };
+		CAF9DF9717F2A32000980DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF9DF7617F2A32000980DEA /* Foundation.framework */; };
+		CAF9DF9817F2A32000980DEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF9DF7A17F2A32000980DEA /* UIKit.framework */; };
+		CAF9DFA017F2A32000980DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAF9DF9E17F2A32000980DEA /* InfoPlist.strings */; };
+		CAF9DFA217F2A32000980DEA /* ProximitySensorSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF9DFA117F2A32000980DEA /* ProximitySensorSampleTests.m */; };
+		CAF9DFAF17F2A39B00980DEA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF9DFAB17F2A39B00980DEA /* icon.png */; };
+		CAF9DFB017F2A39B00980DEA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF9DFAC17F2A39B00980DEA /* icon@2x.png */; };
+		CAF9DFB117F2A39B00980DEA /* Blend Trash Empty.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF9DFAD17F2A39B00980DEA /* Blend Trash Empty.png */; };
+		CAF9DFB217F2A39B00980DEA /* Blend Trash Full.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF9DFAE17F2A39B00980DEA /* Blend Trash Full.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF9DF9917F2A32000980DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF9DF6B17F2A32000980DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF9DF7217F2A32000980DEA;
+			remoteInfo = ProximitySensorSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA4753D0181E9C48000D1BD8 /* icon-120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120@2x.png"; sourceTree = "<group>"; };
+		CAF9DF7317F2A32000980DEA /* ProximitySensorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximitySensorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF9DF7617F2A32000980DEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAF9DF7817F2A32000980DEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAF9DF7A17F2A32000980DEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAF9DF7E17F2A32000980DEA /* ProximitySensorSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProximitySensorSample-Info.plist"; sourceTree = "<group>"; };
+		CAF9DF8017F2A32000980DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAF9DF8217F2A32000980DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAF9DF8417F2A32000980DEA /* ProximitySensorSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProximitySensorSample-Prefix.pch"; sourceTree = "<group>"; };
+		CAF9DF8517F2A32000980DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAF9DF8617F2A32000980DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAF9DF8917F2A32000980DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF9DF8B17F2A32000980DEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAF9DF8C17F2A32000980DEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAF9DF8E17F2A32000980DEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAF9DF9417F2A32000980DEA /* ProximitySensorSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProximitySensorSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF9DF9517F2A32000980DEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CAF9DF9D17F2A32000980DEA /* ProximitySensorSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProximitySensorSampleTests-Info.plist"; sourceTree = "<group>"; };
+		CAF9DF9F17F2A32000980DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAF9DFA117F2A32000980DEA /* ProximitySensorSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProximitySensorSampleTests.m; sourceTree = "<group>"; };
+		CAF9DFAB17F2A39B00980DEA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CAF9DFAC17F2A39B00980DEA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CAF9DFAD17F2A39B00980DEA /* Blend Trash Empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blend Trash Empty.png"; sourceTree = "<group>"; };
+		CAF9DFAE17F2A39B00980DEA /* Blend Trash Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blend Trash Full.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF9DF7017F2A32000980DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF9DF7917F2A32000980DEA /* CoreGraphics.framework in Frameworks */,
+				CAF9DF7B17F2A32000980DEA /* UIKit.framework in Frameworks */,
+				CAF9DF7717F2A32000980DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF9DF9117F2A32000980DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF9DF9617F2A32000980DEA /* XCTest.framework in Frameworks */,
+				CAF9DF9817F2A32000980DEA /* UIKit.framework in Frameworks */,
+				CAF9DF9717F2A32000980DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF9DF6A17F2A32000980DEA = {
+			isa = PBXGroup;
+			children = (
+				CAF9DF7C17F2A32000980DEA /* ProximitySensorSample */,
+				CAF9DF9B17F2A32000980DEA /* ProximitySensorSampleTests */,
+				CAF9DF7517F2A32000980DEA /* Frameworks */,
+				CAF9DF7417F2A32000980DEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF9DF7417F2A32000980DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9DF7317F2A32000980DEA /* ProximitySensorSample.app */,
+				CAF9DF9417F2A32000980DEA /* ProximitySensorSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF9DF7517F2A32000980DEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9DF7617F2A32000980DEA /* Foundation.framework */,
+				CAF9DF7817F2A32000980DEA /* CoreGraphics.framework */,
+				CAF9DF7A17F2A32000980DEA /* UIKit.framework */,
+				CAF9DF9517F2A32000980DEA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF9DF7C17F2A32000980DEA /* ProximitySensorSample */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9DF8517F2A32000980DEA /* AppDelegate.h */,
+				CAF9DF8617F2A32000980DEA /* AppDelegate.m */,
+				CAF9DF8817F2A32000980DEA /* Main.storyboard */,
+				CAF9DF8B17F2A32000980DEA /* ViewController.h */,
+				CAF9DF8C17F2A32000980DEA /* ViewController.m */,
+				CAF9DF8E17F2A32000980DEA /* Images.xcassets */,
+				CAF9DF7D17F2A32000980DEA /* Supporting Files */,
+			);
+			path = ProximitySensorSample;
+			sourceTree = "<group>";
+		};
+		CAF9DF7D17F2A32000980DEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4753D0181E9C48000D1BD8 /* icon-120@2x.png */,
+				CAF9DFAB17F2A39B00980DEA /* icon.png */,
+				CAF9DFAC17F2A39B00980DEA /* icon@2x.png */,
+				CAF9DFAD17F2A39B00980DEA /* Blend Trash Empty.png */,
+				CAF9DFAE17F2A39B00980DEA /* Blend Trash Full.png */,
+				CAF9DF7E17F2A32000980DEA /* ProximitySensorSample-Info.plist */,
+				CAF9DF7F17F2A32000980DEA /* InfoPlist.strings */,
+				CAF9DF8217F2A32000980DEA /* main.m */,
+				CAF9DF8417F2A32000980DEA /* ProximitySensorSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAF9DF9B17F2A32000980DEA /* ProximitySensorSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9DFA117F2A32000980DEA /* ProximitySensorSampleTests.m */,
+				CAF9DF9C17F2A32000980DEA /* Supporting Files */,
+			);
+			path = ProximitySensorSampleTests;
+			sourceTree = "<group>";
+		};
+		CAF9DF9C17F2A32000980DEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9DF9D17F2A32000980DEA /* ProximitySensorSampleTests-Info.plist */,
+				CAF9DF9E17F2A32000980DEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF9DF7217F2A32000980DEA /* ProximitySensorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF9DFA517F2A32000980DEA /* Build configuration list for PBXNativeTarget "ProximitySensorSample" */;
+			buildPhases = (
+				CAF9DF6F17F2A32000980DEA /* Sources */,
+				CAF9DF7017F2A32000980DEA /* Frameworks */,
+				CAF9DF7117F2A32000980DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProximitySensorSample;
+			productName = ProximitySensorSample;
+			productReference = CAF9DF7317F2A32000980DEA /* ProximitySensorSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF9DF9317F2A32000980DEA /* ProximitySensorSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF9DFA817F2A32000980DEA /* Build configuration list for PBXNativeTarget "ProximitySensorSampleTests" */;
+			buildPhases = (
+				CAF9DF9017F2A32000980DEA /* Sources */,
+				CAF9DF9117F2A32000980DEA /* Frameworks */,
+				CAF9DF9217F2A32000980DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF9DF9A17F2A32000980DEA /* PBXTargetDependency */,
+			);
+			name = ProximitySensorSampleTests;
+			productName = ProximitySensorSampleTests;
+			productReference = CAF9DF9417F2A32000980DEA /* ProximitySensorSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF9DF6B17F2A32000980DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tonyguan;
+				TargetAttributes = {
+					CAF9DF7217F2A32000980DEA = {
+						DevelopmentTeam = Y9C893H7FQ;
+					};
+					CAF9DF9317F2A32000980DEA = {
+						TestTargetID = CAF9DF7217F2A32000980DEA;
+					};
+				};
+			};
+			buildConfigurationList = CAF9DF6E17F2A32000980DEA /* Build configuration list for PBXProject "ProximitySensorSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF9DF6A17F2A32000980DEA;
+			productRefGroup = CAF9DF7417F2A32000980DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF9DF7217F2A32000980DEA /* ProximitySensorSample */,
+				CAF9DF9317F2A32000980DEA /* ProximitySensorSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF9DF7117F2A32000980DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF9DFAF17F2A39B00980DEA /* icon.png in Resources */,
+				CAF9DFB217F2A39B00980DEA /* Blend Trash Full.png in Resources */,
+				CAF9DF8F17F2A32000980DEA /* Images.xcassets in Resources */,
+				CAF9DF8117F2A32000980DEA /* InfoPlist.strings in Resources */,
+				CAF9DF8A17F2A32000980DEA /* Main.storyboard in Resources */,
+				CA4753D1181E9C48000D1BD8 /* icon-120@2x.png in Resources */,
+				CAF9DFB117F2A39B00980DEA /* Blend Trash Empty.png in Resources */,
+				CAF9DFB017F2A39B00980DEA /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF9DF9217F2A32000980DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF9DFA017F2A32000980DEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF9DF6F17F2A32000980DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF9DF8D17F2A32000980DEA /* ViewController.m in Sources */,
+				CAF9DF8717F2A32000980DEA /* AppDelegate.m in Sources */,
+				CAF9DF8317F2A32000980DEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF9DF9017F2A32000980DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF9DFA217F2A32000980DEA /* ProximitySensorSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF9DF9A17F2A32000980DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF9DF7217F2A32000980DEA /* ProximitySensorSample */;
+			targetProxy = CAF9DF9917F2A32000980DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF9DF7F17F2A32000980DEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF9DF8017F2A32000980DEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAF9DF8817F2A32000980DEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF9DF8917F2A32000980DEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF9DF9E17F2A32000980DEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF9DF9F17F2A32000980DEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF9DFA317F2A32000980DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAF9DFA417F2A32000980DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF9DFA617F2A32000980DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Y9C893H7FQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximitySensorSample/ProximitySensorSample-Prefix.pch";
+				INFOPLIST_FILE = "ProximitySensorSample/ProximitySensorSample-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ysw.com.SDWebImage-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAF9DFA717F2A32000980DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Y9C893H7FQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximitySensorSample/ProximitySensorSample-Prefix.pch";
+				INFOPLIST_FILE = "ProximitySensorSample/ProximitySensorSample-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ysw.com.SDWebImage-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAF9DFA917F2A32000980DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProximitySensorSample.app/ProximitySensorSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximitySensorSample/ProximitySensorSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProximitySensorSampleTests/ProximitySensorSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CAF9DFAA17F2A32000980DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProximitySensorSample.app/ProximitySensorSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximitySensorSample/ProximitySensorSample-Prefix.pch";
+				INFOPLIST_FILE = "ProximitySensorSampleTests/ProximitySensorSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF9DF6E17F2A32000980DEA /* Build configuration list for PBXProject "ProximitySensorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF9DFA317F2A32000980DEA /* Debug */,
+				CAF9DFA417F2A32000980DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF9DFA517F2A32000980DEA /* Build configuration list for PBXNativeTarget "ProximitySensorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF9DFA617F2A32000980DEA /* Debug */,
+				CAF9DFA717F2A32000980DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF9DFA817F2A32000980DEA /* Build configuration list for PBXNativeTarget "ProximitySensorSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF9DFA917F2A32000980DEA /* Debug */,
+				CAF9DFAA17F2A32000980DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF9DF6B17F2A32000980DEA /* Project object */;
+}

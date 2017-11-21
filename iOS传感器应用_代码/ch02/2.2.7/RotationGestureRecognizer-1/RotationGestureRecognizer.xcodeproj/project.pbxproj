@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1568BF1732DAAD0071FCB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1568BE1732DAAD0071FCB9 /* UIKit.framework */; };
+		CA1568C11732DAAD0071FCB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1568C01732DAAD0071FCB9 /* Foundation.framework */; };
+		CA1568C31732DAAD0071FCB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1568C21732DAAD0071FCB9 /* CoreGraphics.framework */; };
+		CA1568C91732DAAD0071FCB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA1568C71732DAAD0071FCB9 /* InfoPlist.strings */; };
+		CA1568CB1732DAAD0071FCB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1568CA1732DAAD0071FCB9 /* main.m */; };
+		CA1568CF1732DAAD0071FCB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1568CE1732DAAD0071FCB9 /* AppDelegate.m */; };
+		CA1568D11732DAAD0071FCB9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1568D01732DAAD0071FCB9 /* Default.png */; };
+		CA1568D31732DAAD0071FCB9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1568D21732DAAD0071FCB9 /* Default@2x.png */; };
+		CA1568D51732DAAD0071FCB9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1568D41732DAAD0071FCB9 /* Default-568h@2x.png */; };
+		CA1568D81732DAAD0071FCB9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1568D61732DAAD0071FCB9 /* MainStoryboard.storyboard */; };
+		CA1568DB1732DAAD0071FCB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1568DA1732DAAD0071FCB9 /* ViewController.m */; };
+		CA475372181E3FFE000D1BD8 /* icon-120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA475371181E3FFE000D1BD8 /* icon-120@2x.png */; };
+		CA7B40D317D7171600FE6742 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7B40D117D7171600FE6742 /* icon.png */; };
+		CA7B40D417D7171600FE6742 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7B40D217D7171600FE6742 /* icon@2x.png */; };
+		CACD8AD4173338960009E3E5 /* Blend Trash Full.png in Resources */ = {isa = PBXBuildFile; fileRef = CACD8AD2173338960009E3E5 /* Blend Trash Full.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA1568BB1732DAAD0071FCB9 /* RotationGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1568BE1732DAAD0071FCB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA1568C01732DAAD0071FCB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA1568C21732DAAD0071FCB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA1568C61732DAAD0071FCB9 /* RotationGestureRecognizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotationGestureRecognizer-Info.plist"; sourceTree = "<group>"; };
+		CA1568C81732DAAD0071FCB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA1568CA1732DAAD0071FCB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA1568CC1732DAAD0071FCB9 /* RotationGestureRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotationGestureRecognizer-Prefix.pch"; sourceTree = "<group>"; };
+		CA1568CD1732DAAD0071FCB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA1568CE1732DAAD0071FCB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA1568D01732DAAD0071FCB9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA1568D21732DAAD0071FCB9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA1568D41732DAAD0071FCB9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA1568D71732DAAD0071FCB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CA1568D91732DAAD0071FCB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA1568DA1732DAAD0071FCB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA475371181E3FFE000D1BD8 /* icon-120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120@2x.png"; sourceTree = "<group>"; };
+		CA7B40D117D7171600FE6742 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CA7B40D217D7171600FE6742 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CACD8AD2173338960009E3E5 /* Blend Trash Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blend Trash Full.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1568B81732DAAD0071FCB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1568BF1732DAAD0071FCB9 /* UIKit.framework in Frameworks */,
+				CA1568C11732DAAD0071FCB9 /* Foundation.framework in Frameworks */,
+				CA1568C31732DAAD0071FCB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1568B21732DAAD0071FCB9 = {
+			isa = PBXGroup;
+			children = (
+				CA1568C41732DAAD0071FCB9 /* RotationGestureRecognizer */,
+				CA1568BD1732DAAD0071FCB9 /* Frameworks */,
+				CA1568BC1732DAAD0071FCB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1568BC1732DAAD0071FCB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1568BB1732DAAD0071FCB9 /* RotationGestureRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1568BD1732DAAD0071FCB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1568BE1732DAAD0071FCB9 /* UIKit.framework */,
+				CA1568C01732DAAD0071FCB9 /* Foundation.framework */,
+				CA1568C21732DAAD0071FCB9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1568C41732DAAD0071FCB9 /* RotationGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				CACD8AD2173338960009E3E5 /* Blend Trash Full.png */,
+				CA1568CD1732DAAD0071FCB9 /* AppDelegate.h */,
+				CA1568CE1732DAAD0071FCB9 /* AppDelegate.m */,
+				CA1568D61732DAAD0071FCB9 /* MainStoryboard.storyboard */,
+				CA1568D91732DAAD0071FCB9 /* ViewController.h */,
+				CA1568DA1732DAAD0071FCB9 /* ViewController.m */,
+				CA1568C51732DAAD0071FCB9 /* Supporting Files */,
+			);
+			name = RotationGestureRecognizer;
+			path = TapGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		CA1568C51732DAAD0071FCB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA475371181E3FFE000D1BD8 /* icon-120@2x.png */,
+				CA1568C61732DAAD0071FCB9 /* RotationGestureRecognizer-Info.plist */,
+				CA1568C71732DAAD0071FCB9 /* InfoPlist.strings */,
+				CA7B40D117D7171600FE6742 /* icon.png */,
+				CA7B40D217D7171600FE6742 /* icon@2x.png */,
+				CA1568CA1732DAAD0071FCB9 /* main.m */,
+				CA1568CC1732DAAD0071FCB9 /* RotationGestureRecognizer-Prefix.pch */,
+				CA1568D01732DAAD0071FCB9 /* Default.png */,
+				CA1568D21732DAAD0071FCB9 /* Default@2x.png */,
+				CA1568D41732DAAD0071FCB9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1568BA1732DAAD0071FCB9 /* RotationGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1568DE1732DAAD0071FCB9 /* Build configuration list for PBXNativeTarget "RotationGestureRecognizer" */;
+			buildPhases = (
+				CA1568B71732DAAD0071FCB9 /* Sources */,
+				CA1568B81732DAAD0071FCB9 /* Frameworks */,
+				CA1568B91732DAAD0071FCB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotationGestureRecognizer;
+			productName = TapGestureRecognizer;
+			productReference = CA1568BB1732DAAD0071FCB9 /* RotationGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1568B31732DAAD0071FCB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tonyguan;
+			};
+			buildConfigurationList = CA1568B61732DAAD0071FCB9 /* Build configuration list for PBXProject "RotationGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA1568B21732DAAD0071FCB9;
+			productRefGroup = CA1568BC1732DAAD0071FCB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA1568BA1732DAAD0071FCB9 /* RotationGestureRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1568B91732DAAD0071FCB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1568C91732DAAD0071FCB9 /* InfoPlist.strings in Resources */,
+				CA7B40D417D7171600FE6742 /* icon@2x.png in Resources */,
+				CA7B40D317D7171600FE6742 /* icon.png in Resources */,
+				CA475372181E3FFE000D1BD8 /* icon-120@2x.png in Resources */,
+				CA1568D11732DAAD0071FCB9 /* Default.png in Resources */,
+				CA1568D31732DAAD0071FCB9 /* Default@2x.png in Resources */,
+				CA1568D51732DAAD0071FCB9 /* Default-568h@2x.png in Resources */,
+				CA1568D81732DAAD0071FCB9 /* MainStoryboard.storyboard in Resources */,
+				CACD8AD4173338960009E3E5 /* Blend Trash Full.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1568B71732DAAD0071FCB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1568CB1732DAAD0071FCB9 /* main.m in Sources */,
+				CA1568CF1732DAAD0071FCB9 /* AppDelegate.m in Sources */,
+				CA1568DB1732DAAD0071FCB9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA1568C71732DAAD0071FCB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1568C81732DAAD0071FCB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA1568D61732DAAD0071FCB9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1568D71732DAAD0071FCB9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA1568DC1732DAAD0071FCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA1568DD1732DAAD0071FCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA1568DF1732DAAD0071FCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapGestureRecognizer/RotationGestureRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "TapGestureRecognizer/RotationGestureRecognizer-Info.plist";
+				PRODUCT_NAME = RotationGestureRecognizer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA1568E01732DAAD0071FCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapGestureRecognizer/RotationGestureRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "TapGestureRecognizer/RotationGestureRecognizer-Info.plist";
+				PRODUCT_NAME = RotationGestureRecognizer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1568B61732DAAD0071FCB9 /* Build configuration list for PBXProject "RotationGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1568DC1732DAAD0071FCB9 /* Debug */,
+				CA1568DD1732DAAD0071FCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1568DE1732DAAD0071FCB9 /* Build configuration list for PBXNativeTarget "RotationGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1568DF1732DAAD0071FCB9 /* Debug */,
+				CA1568E01732DAAD0071FCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA1568B31732DAAD0071FCB9 /* Project object */;
+}
